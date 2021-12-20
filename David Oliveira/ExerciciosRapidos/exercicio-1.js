@@ -1,7 +1,7 @@
 //A Formúla: ℉ = ℃ * 1.8000 + 32.00
 
 function CelciusToFahrenheit(c) {
-    let fah = c * 1.8000 + 32;
+    let fah = (c * 1.8) + 32;
     return fah;
 }
 
